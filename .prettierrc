@@ -1,0 +1,10 @@
+{
+    "tabWidth": 4,
+    "useTabs": false,
+    "editor.formatOnSave": true,
+    "singleQuote": false,
+    "semi": false,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
+    "prettier.disableLanguages": ["html"]
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include('./common/meta', {}) %>
+        <%- include('./common/libs', {}) %>
+
+        <%- include(`./imports/${page ?? "404"}`, { subPage }) %>
+    </head>
+    <body>
+        <%- include(`./pages/${page ?? "404"}`, { subPage }) %>
+    </body>
+</html>

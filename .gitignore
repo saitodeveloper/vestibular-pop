@@ -1,0 +1,12 @@
+# Build files
+node_modules/
+.firebase/
+public/js/build/*
+
+# Development files
+coverage/
+.env
+
+# MacOS files
+.DS_Store
+.prettierignore

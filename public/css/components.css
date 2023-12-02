@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.CInput {
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    width: 100%;
+    background: blue;
+}
+
+.CInput i {
+    margin-right: 0.5rem;
+}
+
+.CInput input {
+    width: 100%;
+    background: none;
+    outline: none;
+    border: 0;
+    font-size: 1rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 12rem;
+    border: 0 solid yellow;
+    border-width: 0 0 0.3rem 0;
+    cursor: pointer;
+    margin-top: 0.9rem;
+}
